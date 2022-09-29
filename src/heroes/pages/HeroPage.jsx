@@ -19,7 +19,7 @@ export const HeroPage = () => {
 
   if ( !hero) {
     return (
-      <div className="container">
+      <div className="container infoError">
         <h1 className="alert alert-info">
         🦸‍♀️ 404 - Hero not found 🦸‍♂️</h1>
       </div>
