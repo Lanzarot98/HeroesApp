@@ -22,7 +22,7 @@ export const Navbar = () => {
                 <Link 
                     className="navbar-brand" 
                 >
-                    Asociaciones
+                    HeroesApp
                 </Link>
                 <button 
                     className="navbar-toggler"
