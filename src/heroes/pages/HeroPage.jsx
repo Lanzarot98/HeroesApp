@@ -17,6 +17,7 @@ export const HeroPage = () => {
     // ó navigate(-1);
   };
 
+  const heroImageUrl = `./assets/heroes/${ id }.jpg`;
   if ( !hero) {
     return (
       <div className="container infoError">
@@ -32,7 +33,7 @@ export const HeroPage = () => {
     <div className="row mt-5">
       <div className="col-4">
         <img 
-          src={`./assets/heroes/${ id }.jpg` }
+          src={ heroImageUrl }
           alt={ hero.superhero } 
           className="img-thumbnail animate__animated animate__fadeInLeft"
         />
