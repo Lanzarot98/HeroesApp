@@ -10,7 +10,7 @@ export const LoginPage = () => {
 
   const onLogin = () => {
 
-    login( 'Luis Miguel Rojas' );
+    login( 'Zoey Karina Cruzco' );
     navigate('/', {
       replace: true
     });

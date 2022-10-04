@@ -5,12 +5,13 @@ import { AuthContext } from '../../auth/context/AuthContext';
 export const Navbar = () => {
 
     const navigate = useNavigate();
-    const { user } = useContext( AuthContext );
+    const { user, logout } = useContext( AuthContext );
 
     const onLogout = () => {
         navigate('/login', {
             replace: true
         });
+        logout();
     }
     
 
@@ -62,7 +63,7 @@ export const Navbar = () => {
                     </span>
 
                     <button
-                        className='nav-item nav-link btn'
+                        className='btn btn-outline-dark nav-item nav-link'
                         onClick={ onLogout }
                     >
                         Logout
