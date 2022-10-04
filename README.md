@@ -1,7 +1,7 @@
 # HeroesApp
 
 Information Page about heroes from DC and Marvel
-## ** Technologies used **
+## **Technologies used**
 -  React
 -  JavasScript
 -  vite
