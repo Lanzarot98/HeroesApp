@@ -70,7 +70,7 @@ export const Navbar = () => {
                             </span>
 
                             <button
-                                className='btn btn-outline-dark nav-item nav-link '
+                                className='btn btn-outline-dark nav-item nav-link'
                                 onClick={ onLogout }
                             >
                                 Logout

@@ -56,9 +56,4 @@ describe('Testing <PrivateRoute />', () => {
        
     });
 
-    test('should localStorage', () => { 
-        
-
-    })
-
 });
